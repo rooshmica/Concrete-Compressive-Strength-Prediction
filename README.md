@@ -1,6 +1,6 @@
 #### Concrete-Compressive-Strength-Prediction
 
-Date Set PAth -> https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
+Concrete DateSet Path -> https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
 
 ### Project Overview
 This project aims to predict the compressive strength of concrete using machine learning models. The dataset contains 1,030 observations with 9 attributes, where 8 are quantitative input variables (cement, water, fine aggregate, etc.) and 1 is the target variable (concrete compressive strength). The goal is to identify key factors that influence concrete strength and build accurate prediction models.
