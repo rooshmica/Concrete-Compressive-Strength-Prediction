@@ -1,5 +1,7 @@
 #### Concrete-Compressive-Strength-Prediction
 
+Concrete DateSet Path -> https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
+
 ### Project Overview
 This project aims to predict the compressive strength of concrete using machine learning models. The dataset contains 1,030 observations with 9 attributes, where 8 are quantitative input variables (cement, water, fine aggregate, etc.) and 1 is the target variable (concrete compressive strength). The goal is to identify key factors that influence concrete strength and build accurate prediction models.
 
@@ -89,3 +91,22 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+
+### Conclusion
+
+In this project, we focused on predicting the compressive strength of concrete using machine learning techniques, specifically **Linear Regression** and **Polynomial Regression**. After thoroughly exploring the dataset and preprocessing the data, we built both models to assess their predictive capabilities.
+
+**Key Findings:**
+- **Linear Regression**: The linear regression model served as a baseline model. It provided a reasonable initial prediction but had limitations in capturing non-linear relationships within the data, resulting in a lower accuracy.
+  
+- **Polynomial Regression**: To improve the model’s ability to capture non-linear trends, we applied polynomial regression. This enhanced the model's performance significantly, increasing the accuracy from **54%** with linear regression to **77%**. The polynomial model was able to better capture the complexity of the relationship between the features and the target variable, thus reducing the model error and improving predictions.
+
+### Overall Impact:
+- Polynomial regression yielded a much better predictive performance than linear regression, demonstrating that some degree of non-linearity is present in the relationship between the input features and concrete compressive strength.
+- The findings from this study can help in making more accurate predictions for concrete strength, which is crucial for civil engineering applications like construction and infrastructure development.
+
+### Future Work:
+- Further improvements could be made by experimenting with other machine learning models like Decision Trees or Random Forest, which might perform even better for this type of dataset.
+- A deeper exploration into feature engineering and hyperparameter tuning could also be beneficial for optimizing model performance.
+
+This study successfully demonstrated that a simple polynomial regression model can significantly improve predictive accuracy when dealing with complex relationships in concrete strength prediction.
